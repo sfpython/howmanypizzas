@@ -43,3 +43,13 @@ predicts the number of expected attendees.
 
 While you could provide a single number, it's best to also provide other statistical information. For example,
 what is the confidence interval for a given confidence level?
+
+# Using the v1 model
+``` python howmanypizzas/src/howmanypizzas/models/ols_model_v1.py ```
+
+<br>Example:
+
+```
+Enter the number of registrations as of 2 days before the event: 49
+You can expect 57 check ins based on the number of registrations. If each person eats a quarter pizza, you should order 15 pizzas.
+```
