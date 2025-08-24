@@ -20,7 +20,7 @@ def predict_pizza_v1():
 
     if result is not None:    
         print("\nYou can expect {result:0d} check ins, with a 95% confidence interval between {result_lower_bound:0d} and {result_upper_bound:0d} check ins.".format(result=result, result_lower_bound=result_lower_bound, result_upper_bound=result_upper_bound))
-        print("\nIf each person eats 1/6th of a large pizza, then you should order {result:0d} pizzas, or between {result_lower_bound:0d} and {result_upper_bound:0d} pizzas".format(result=int(result/6), result_lower_bound=int(result_lower_bound/6), result_upper_bound=int(result_upper_bound/6)))
+        print("\nIf each person eats 1/6th of a large pizza, then you should order {result:0d} pizzas, or between {result_lower_bound:0d} and {result_upper_bound:0d} pizzas.".format(result=int(result/6), result_lower_bound=int(result_lower_bound/6), result_upper_bound=int(result_upper_bound/6)))
 
 if __name__ == '__main__':
     predict_pizza_v1()

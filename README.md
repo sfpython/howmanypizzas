@@ -50,6 +50,9 @@ what is the confidence interval for a given confidence level?
 <br>Example:
 
 ```
-Enter the number of registrations as of 2 days before the event: 49
-You can expect 57 check ins based on the number of registrations. If each person eats a quarter pizza, you should order 15 pizzas.
+Enter the number of registrations as of 2 days before the event: 100
+
+You can expect 85 check ins, with a 95% confidence interval between 53 and 117 check ins.
+
+If each person eats 1/6th of a large pizza, then you should order 14 pizzas, or between 8 and 19 pizzas.
 ```
